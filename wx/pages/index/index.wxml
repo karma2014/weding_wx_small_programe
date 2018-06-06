@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="usermotto">
+      <text class="user-motto">{{motto}}</text>
+    </view>
+    <view class="imgs-block">
+      <view class="imgs__title">{{imgtitle}}</view>
+      <view class="imgs__ctn">
+        <image class="imgs__img" mode="{{imgmode}}" src="{{src}}"></image>
+      </view>
+    </view>
+    <button style="margin-bottom:2rem" type="primary" bindtap="bindViewTap"> 照片 </button>
+    <button type="primary" bindtap="bindAddressTap"> 婚礼 </button>
+</view>

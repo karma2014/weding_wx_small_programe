@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/pictures/pictures",
+    "pages/address/address"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#dc3023",
+    "navigationBarTitleText": "Photo Wall",
+    "navigationBarTextStyle":"black"
+  }
+}

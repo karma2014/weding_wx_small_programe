@@ -1,0 +1,24 @@
+<!--导航条-->  
+<view class="navbar">  
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>  
+</view>  
+  
+<!--首页-->  
+<scroll-view hidden="{{currentTab!==0}}">  
+  <view  wx:for="{{array}}" wx:for-item="item">
+      <view class="section__title">{{item.text}}</view>
+      <view class="section__ctn">
+        <image class="section__img" mode="{{item.mode}}" src="{{src}}"></image>
+      </view>
+    </view> 
+</scroll-view>  
+  
+<!--搜索-->  
+<scroll-view hidden="{{currentTab!==1}}">  
+  tab_02  
+</scroll-view>  
+  
+<!--我-->  
+<scroll-view hidden="{{currentTab!==2}}">  
+  tab_03  
+</scroll-view>  

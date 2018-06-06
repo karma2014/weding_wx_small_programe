@@ -1,0 +1,27 @@
+/**index.wxss**/
+@import "../../lib/css/fa.wxss";
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  text-align: center;
+  font-size:1rem;
+  margin-top: 2rem;
+}
+.imgs-block{
+  padding-top:2rem;
+}
+.imgs__title{
+  text-align: center;
+  font-size:1rem;
+}
+.imgs__ctn{
+  width:20rem;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
